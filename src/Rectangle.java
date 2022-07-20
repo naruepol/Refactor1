@@ -17,14 +17,14 @@ public class Rectangle extends Shape {
 		return length*width;
 	}
 	
-	public int findMax(int a, int b) {
-		int m;
-		if (a > b) {
-			m = a;
-			return m;
+	public int findMax(int number1, int number2) {
+		int maxNumber;
+		if (number1 > number2) {
+			maxNumber = number1;
+			return maxNumber;
 		}else {
-			m = b;
-			return m;
+			maxNumber = number2;
+			return maxNumber;
 		}
 	}
 	

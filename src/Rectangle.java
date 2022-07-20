@@ -14,7 +14,7 @@ public class Rectangle extends Shape {
 	}
 
 	public double getArea() {
-		return 0;
+		return length*width;
 	}
 	
 	public String toString(){

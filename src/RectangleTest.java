@@ -12,4 +12,10 @@ class RectangleTest {
 		assertEquals(8,r2.getArea());	
 	}
 
+	@Test
+	void testFindMax() {
+		Rectangle r3 = new Rectangle(1,1);
+		assertEquals(23,r3.findMax(7,23));
+	}
+
 }

@@ -17,6 +17,10 @@ public class Rectangle extends Shape {
 		return length*width;
 	}
 	
+	public int findMax(int a, int b) {
+		return 0;
+	}
+	
 	public String toString(){
 		if (color == null) {
 			color = "red";

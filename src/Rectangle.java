@@ -18,7 +18,14 @@ public class Rectangle extends Shape {
 	}
 	
 	public int findMax(int a, int b) {
-		return 0;
+		int m;
+		if (a > b) {
+			m = a;
+			return m;
+		}else {
+			m = b;
+			return m;
+		}
 	}
 	
 	public String toString(){
